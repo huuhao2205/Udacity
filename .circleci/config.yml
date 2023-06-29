@@ -13,10 +13,6 @@ jobs:
       - checkout
       # install dependencies in both apps  
       - run:
-          name: Update NPM to latest version
-          command: |
-            npm install -g npm
-      - run:
           name: Front-End Install
           command: |
             npm run frontend:install
